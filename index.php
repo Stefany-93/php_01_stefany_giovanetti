@@ -1,13 +1,11 @@
 <?php
 
-const INTEGER = 6;
-echo INTEGER;
+$integer = 6;
+$float = 2.3;
+$string = "Ciao";
+$booleano = true;
 
-const FLOAT = 2.3;
-echo FLOAT;
-
-const STRING = "Ciao";
-echo STRING;
-
-const BOOLEAN = true;
-echo BOOLEAN;
+var_dump($integer);
+var_dump($float);
+var_dump($string);
+var_dump($booleano);
